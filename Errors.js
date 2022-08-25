@@ -1,3 +1,10 @@
+// const { errorHandler, two } = require("./errorHandler.js")
+
+import two from "./errorHandler.js"
+
+two();
+
+
 async function getData() {
     try {
         undefined.find();
@@ -6,24 +13,13 @@ async function getData() {
         throw emailError;
 
     } catch (error) {
-        errorHandler(error);
+        // errorHandler(error);
     }
 }
 
 getData();
 
 
-function errorHandler(error) {
-    const { name, message, stack } = error;
-
-    // logger.error({
-    //     name,
-    //     message,
-    //     stack,
-    // });
-
-    console.log("Internal server error!");
-}
 
 
 console.log("Done!");

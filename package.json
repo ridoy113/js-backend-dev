@@ -1,0 +1,21 @@
+{
+  "name": "backendjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AsyncAwait.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridoy113/js-backend-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridoy113/js-backend-dev/issues"
+  },
+  "homepage": "https://github.com/ridoy113/js-backend-dev#readme"
+}
